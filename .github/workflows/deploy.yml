@@ -25,4 +25,4 @@ jobs:
       - name: skip message
         env:
           if: contains(join(toJson(github.event.commits.*.message), ' '), '#skip') == false
-        run: echo "deploying..."
+        run: echo "deploying....."
