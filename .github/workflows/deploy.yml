@@ -24,4 +24,4 @@ jobs:
         run: echo "$COMMIT_MESSAGES"
       - name: skip message
         if: contains(join(toJson(github.event.commits.*.message), ' '), '#skip') == false
-        run: echo "deploying....."
+        run: echo "deploying..."
