@@ -1,3 +1,5 @@
+name: Check URL
+
 on:
   # push is just for testing
   push:
